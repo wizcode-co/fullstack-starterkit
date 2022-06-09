@@ -1,4 +1,4 @@
-# Fullstack StarterKit
+# WizCode Fullstack StarterKit
 
 When you run this application you'll see a "Get Data" button on the frontend client. If you hit that button and the backend server is up successfully, you will see a success message show on screen. Otherwise you either messed something up or you're screwed
 
