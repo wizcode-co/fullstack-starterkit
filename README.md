@@ -1,6 +1,6 @@
 # WizCode Fullstack StarterKit
 
-When you run this application you'll see a "Get Data" button on the frontend client. If you hit that button and the backend server is up successfully, you will see a success message show on screen. Otherwise you either messed something up or you're screwed
+When this application is ran, you'll see a button "Get Data" on the frontend client. This button will perform an HTTP action on the backend server and if it resolves you'll see a success message
 
 - Backend is built with Python Flask
 - Frontend is built with NextJS
