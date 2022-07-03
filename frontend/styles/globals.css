@@ -1,9 +1,10 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    /*font-family: INSERTGOOGLEFONT;*/
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }

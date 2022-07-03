@@ -4,19 +4,16 @@ export default function Home() {
     const [value, setValue] = useState();
 
     const handleClick = async () => {
-        fetch("http://localhost:5000/api/")
-            .then((response) => response.json())
-            .then((data) => {setValue(data.message)})
-            .catch((error) => {setValue(error.toString())})
-        // const data = await response.json()
-        // console.log(data)
+        const response = await fetch("http://localhost:5000/api/")
+        const data = await response.json()
+        setValue(data.body)
     }
 
     return (
-        <div>
-            <h1>This is the homepage</h1>
+        <div className={"w-full flex flex-col items-center"}>
+            <h1 className={"text-2xl"}>This is the homepage</h1>
             <h3>Press the button to get some data from the backend server</h3>
-            <button onClick={handleClick}>Get data</button>
+            <button className={"bg-blue-200 p-2 rounded-lg"} onClick={handleClick}>Get data</button>
             <h1>{value}</h1>
         </div>
     )

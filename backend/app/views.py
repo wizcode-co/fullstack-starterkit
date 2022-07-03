@@ -1,15 +1,11 @@
-from flask import Blueprint, request, jsonify
-from flask_cors import cross_origin
+from flask import Blueprint, request
+from . import Response
 
 views = Blueprint('views', __name__)
 
 
 @views.route('/', methods=['GET'])
-@cross_origin()
 def home():
     if request.method == 'GET':
-        response = jsonify(message="Simple server is running")
-
-        response.content_type = "application/json"
-        return response
-    return ""
+        return Response(200, "Simple server is running")
+    return Response(400, "Incorrect HTTP request type")
