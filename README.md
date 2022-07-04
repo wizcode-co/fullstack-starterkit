@@ -6,7 +6,7 @@ When this application is ran, you'll see a button "Get Data" on the frontend cli
 - **Styling** - TailwindCSS
 - **Backend** - Firebase Cloud Functions with Python Flask
 - **Database** - Firebase Firestore NoSQL DB
-- **Auth** - Firebase Authentication
+- **Auth** - Firebase Authentication - Sign in with Google
 
 # Setup Guide
 
