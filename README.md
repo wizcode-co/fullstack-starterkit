@@ -13,6 +13,6 @@ Before starting, have 2 terminals open at frontend and backend subdirs
 2. In a terminal, start the flask server with ```flask run```
 
 ## FRONTEND
-1. In terminal, enter ```npm install```
-2. Now enter, ```next dev```
+1. Enter ```npm install```
+4. Now enter, ```next dev```
    1. If this fails, try ```npm run dev```  
