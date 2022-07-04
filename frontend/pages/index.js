@@ -4,9 +4,13 @@ export default function Home() {
     const [value, setValue] = useState();
 
     const handleClick = async () => {
-        const response = await fetch("http://localhost:5000/api/")
-        const data = await response.json()
-        setValue(data.body)
+        try{
+            const response = await fetch("http://localhost:5000/api/");
+            const data = await response.json();
+            setValue(data.message);
+        } catch(error){
+            setValue(error.toString());
+        }
     }
 
     return (

@@ -1,4 +1,6 @@
-This is a starter kit full stack application
+# WizCode Fullstack StarterKit
+
+When this application is ran, you'll see a button "Get Data" on the frontend client. This button will perform an HTTP action on the backend server and if it resolves you'll see a success message
 
 - Backend is built with Python Flask
 - Frontend is built with NextJS
@@ -16,3 +18,4 @@ Before starting, have 2 terminals open at frontend and backend subdirs
 1. Enter ```npm install```
 4. Now enter, ```next dev```
    1. If this fails, try ```npm run dev```  
+
