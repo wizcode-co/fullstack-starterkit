@@ -2,8 +2,11 @@
 
 When this application is ran, you'll see a button "Get Data" on the frontend client. This button will perform an HTTP action on the backend server and if it resolves you'll see a success message
 
-- Backend is built with Python Flask
-- Frontend is built with NextJS
+- **Frontend** - NextJS
+- **Backend** - Firebase Cloud Functions with Python Flask
+- **Styling** - TailwindCSS
+- **Database** - Firestore
+- **Auth** - Firebase Authentication
 
 # Setup Guide
 
